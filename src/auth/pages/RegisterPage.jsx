@@ -12,9 +12,9 @@ const formData = { displayName: '', email: '', password: ''}
 
 //Validations
 const formValidations = {
-    displayName: [(value) => value.length >= 1, 'Name is obligatory'],
+    displayName: [(value) => value.length >= 1, 'Name is required'],
     email: [(value) => value.includes('@'), 'Email need to have @'],
-    password: [(value) => value.length >= 6, 'Password need to have more than 6 characters']
+    password: [(value) => value.length >= 8, 'Password need to have at least 8 characters']
 }
 
 export const RegisterPage = () => {
@@ -86,7 +86,7 @@ export const RegisterPage = () => {
                         />
                     </Grid>
 
-                    <Grid item xs={12} display={!!errorMessage ? '' : 'none'}>
+                    <Grid item xs={12} mt={2} display={!!errorMessage ? '' : 'none'}>
                         <Alert severity='error'>{errorMessage}</Alert>
                     </Grid>
 
