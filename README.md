@@ -4,13 +4,15 @@
 
 🔗 [Official Site](https://cloudybook.netlify.app/)
 
+📷 [Follow me on Instagram](https://www.instagram.com/4ubio/)
+
 Cloudbook let you create and store notes in the cloud for free. Don't worry about which device are you writing your notes, with your account them will be available in any device!
 
 Create your account is easy, you only need your email and password, or if you want, you can register and login with your Google account.
 
 What are you waiting for? Use it now!
 
-<center><img src="public/Screenshot.png"  width="90%"></center>
+<center><img src="public/Screenshot.png"  width="100%"></center>
 
 <br>
 
